@@ -1,0 +1,46 @@
+<!--  {{if eq .RunMode "dev"}}
+    {{template "debug.html" .}}
+  {{end}}-->
+    <!-- Footer -->
+    <footer>
+
+        <div class="bar_botom btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" id="stars" class="btn btn-default" href="#tab1" data-toggle="tab">
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </button>
+            </div>
+        </div>
+
+        <!-- End Footer -->
+
+
+        <div class="copy col-md-12">
+                        <p>Copyright &copy; <a href="http://nercore.com">NerCore</a> 2016</p>
+        </div>
+
+
+    </footer>
+        {{template "js.html" .}}
+  </body>
+</html>

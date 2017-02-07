@@ -1,0 +1,52 @@
+{{set . "title" "Open Saturday"}}
+{{template "var.html" .}}
+{{template "head.html" .}}
+
+{{template "header.html" .}}
+
+<div class="carousel fade-carousel slide" data-pause="click" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <video loop="loop" preload="auto" id="pretzel-video" autoplay class="video-playing">
+    <source src="//a0.muscache.com/airbnb/static/Paris-P1-1.mp4" type="video/mp4">
+    <source src="//a0.muscache.com/airbnb/static/Paris-P1-0.webm" type="video/webm">
+  </video>
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>El mayor evento Open Source del pais.</h1>
+            <h3>Compartimos conocimientos libremente!</h3>
+        </hgroup>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are smart</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are amazing</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
+      </div>
+    </div>
+  </div>
+  </div>
+{{template "testimonial.html" .}}
+
+{{template "footer.html" .}}
